@@ -30,6 +30,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>E5591A32-E7D2-48E0-BAF6-07D067D02F05</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Florian Eckerstorfer</string>
@@ -41,6 +52,33 @@
 	<string>Password Please</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>E5591A32-E7D2-48E0-BAF6-07D067D02F05</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -68,21 +106,6 @@ echo trim(implode('', $output));</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>C3DC50C2-7B89-4AFA-A457-CE6BBC051611</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -98,6 +121,21 @@ echo trim(implode('', $output));</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C3DC50C2-7B89-4AFA-A457-CE6BBC051611</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -117,6 +155,11 @@ echo trim(implode('', $output));</string>
 			<real>60</real>
 		</dict>
 		<key>C3DC50C2-7B89-4AFA-A457-CE6BBC051611</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>E5591A32-E7D2-48E0-BAF6-07D067D02F05</key>
 		<dict>
 			<key>ypos</key>
 			<real>60</real>
