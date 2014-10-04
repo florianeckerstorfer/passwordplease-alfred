@@ -5,6 +5,13 @@ Password, Please! for Alfred
 
 ![Password, Please! for Alfred](docs/screenshot.png)
 
+
+Installation
+------------
+
+Download the latest [release](https://github.com/florianeckerstorfer/passwordplease-alfred/releases) and double-click the `passwordplease.alfredworkflow` file.
+
+
 Usage
 -----
 
