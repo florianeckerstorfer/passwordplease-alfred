@@ -1,9 +1,9 @@
-Password, Please! for Alfred
+<a href="http://passwordplea.se"><img src="https://florian.ec/img/password-please/logo.png" alt="Password Please"></a>
 ============================
 
-> [Password, Please!](https://github.com/florianeckerstorfer/passwordplease-php) is a workflow for Alfred that generates password of a given length and complexity.
+> Password Please is an Alfred workflow to generate secure passwords. It uses the [PHP library](https://github.com/florianeckerstorfer/passwordplease-php) of the same name.
 
-![Password, Please! for Alfred](docs/screenshot.png)
+![Password Please for Alfred](docs/screenshot.png)
 
 
 Installation
@@ -15,7 +15,7 @@ Download the latest [release](https://github.com/florianeckerstorfer/passwordple
 Usage
 -----
 
-The default keyword for **Password, Please!** is `pwd`. You can add two optional arguments, length and complexity. Length must be the first argument, complexity the second. Length must be a number larger than `0`. Complexity can be either a number between 1 (very high complexity) and 4 (low complexity) or one of the aliases listed in the table below.
+The default keyword for **Password Please** is `pwd`. You can add two optional arguments, length and complexity. Length must be the first argument, complexity the second. Length must be a number larger than `0`. Complexity can be either a number between 1 (very high complexity) and 4 (low complexity) or one of the aliases listed in the table below.
 
 <table>
     <thead>
@@ -69,4 +69,3 @@ License
 -------
 
 The MIT license applies to `florianeckerstorfer/passwordplease-alfred`. For the full copyright and license information, please view the `LICENSE` file distributed with this source code.
-
